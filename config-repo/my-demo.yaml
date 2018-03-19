@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: my-demo
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+
+server:
+  port: 9004
+
+book:
+  name: 'springBook from GitHub no'
+  author: 'zhongsheng'
